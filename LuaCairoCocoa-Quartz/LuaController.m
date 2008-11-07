@@ -50,10 +50,10 @@ static int l_setNeedsDisplay(lua_State *L) {
 	lua_pushlightuserdata(L, self);
 	lua_setglobal(L, "self");
 	
-	NSString *directory = [[NSBundle mainBundle] resourcePath];
+	NSString *directory = [[NSBundle mainBundle] bundlePath];
 	const char *dir = [directory cStringUsingEncoding:NSASCIIStringEncoding];
 	lua_pushstring(L, dir);
-	lua_setglobal(L, "LUA_PATH");
+	lua_setglobal(L, "BASE_PATH");
 	
 	// let's tell lua about the viewport
 	self.viewport = theViewport;

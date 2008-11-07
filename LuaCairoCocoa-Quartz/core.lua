@@ -1,5 +1,5 @@
-package.path = LUA_PATH.."/?.lua"
-package.cpath = LUA_PATH.."/?.so"
+package.path = BASE_PATH.."/Contents/Resources/?.lua"
+package.cpath = BASE_PATH.."/Contents/Frameworks/?.so"
 
 require"cairo"
 

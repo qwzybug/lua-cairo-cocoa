@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>03C033130EC4D03B00BBA802</string>
+						<string>03C033370EC4D25600BBA802</string>
 						<key>history</key>
 						<array>
 							<string>03C0314A0EC3FD6D00BBA802</string>
@@ -272,8 +272,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -320,6 +318,7 @@
 								<string>1C37FBAC04509CD000000102</string>
 								<string>03C0308F0EC3EA7C00BBA802</string>
 								<string>03C030AA0EC3EB5B00BBA802</string>
+								<string>03C033180EC4D19000BBA802</string>
 								<string>03C032D40EC4C91D00BBA802</string>
 								<string>03C0324F0EC43F1300BBA802</string>
 								<string>1C37FAAC04509CD000000102</string>
@@ -328,11 +327,12 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {246, 648}}</string>
+							<string>{{0, 1}, {246, 648}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -362,6 +362,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -379,7 +381,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>03C033120EC4D03B00BBA802</string>
+										<string>03C033360EC4D25600BBA802</string>
 										<key>history</key>
 										<array>
 											<string>03C02D7A0EC28B6A00BBA802</string>
@@ -388,13 +390,13 @@
 											<string>03C02E5A0EC2E16600BBA802</string>
 											<string>03C030090EC3010300BBA802</string>
 											<string>03C031A60EC4116F00BBA802</string>
-											<string>03C032A70EC4633100BBA802</string>
-											<string>03C032AB0EC4633100BBA802</string>
 											<string>03C032AC0EC4633100BBA802</string>
 											<string>03C032BB0EC4C64D00BBA802</string>
-											<string>03C032D50EC4C91D00BBA802</string>
 											<string>03C032F10EC4CC6800BBA802</string>
-											<string>03C032D60EC4C91D00BBA802</string>
+											<string>03C0331E0EC4D21600BBA802</string>
+											<string>03C0331F0EC4D21600BBA802</string>
+											<string>03C033330EC4D25600BBA802</string>
+											<string>03C033340EC4D25600BBA802</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -506,6 +508,16 @@
 											<string>03C032DA0EC4C91D00BBA802</string>
 											<string>03C032DB0EC4C91D00BBA802</string>
 											<string>03C032F20EC4CC6800BBA802</string>
+											<string>03C033220EC4D21600BBA802</string>
+											<string>03C033230EC4D21600BBA802</string>
+											<string>03C033240EC4D21600BBA802</string>
+											<string>03C033250EC4D21600BBA802</string>
+											<string>03C033260EC4D21600BBA802</string>
+											<string>03C033270EC4D21600BBA802</string>
+											<string>03C033280EC4D21600BBA802</string>
+											<string>03C033290EC4D21600BBA802</string>
+											<string>03C0332F0EC4D24900BBA802</string>
+											<string>03C033350EC4D25600BBA802</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -702,9 +714,9 @@
 		<string>03C030C60EC3ECF900BBA802</string>
 		<string>03C030C70EC3ECF900BBA802</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>03C031480EC3FD6D00BBA802</string>
 		<string>03C02D660EC28A1400BBA802</string>
+		<string>03C031480EC3FD6D00BBA802</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/d/Desktop/lua-cairo-cocoa/LuaCairoCocoa-Quartz/LuaCairoCocoa.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
