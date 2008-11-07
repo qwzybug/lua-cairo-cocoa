@@ -11,8 +11,7 @@ for i = 1,10 do
   for j = 1,10 do
     c:rectangle{x=36*(i-1), y=(36*(j-1)),
                 width=36, height=36}
-    c.color = {r=math.random(), g=math.random(),
-               b=math.random(), a=1}
+    c.color = Color.random()
     c:fill()
   end
 end
@@ -23,8 +22,7 @@ randomrect = function()
               y = 360 * math.random(),
               width = 100 * math.random(),
               height = 100 * math.random() }
-  c.color = {r=math.random(), g=math.random(),
-             b=math.random(), a=1}
+  c.color = Color.random()
   c:fill()
 end
 
