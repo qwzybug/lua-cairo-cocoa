@@ -71,20 +71,6 @@ LifeGame = {
         self.nextgrid:setValueAt(x, y, newval)
       end
       self.grid, self.nextgrid = self.nextgrid, self.grid
-    end,
-  print =
-    function(self)
-      local row, reps = {}, {[true] = "*", [false] = "-"}
-      for x, y, val in self.grid:eachCell() do
-        if y == 0 then print(table.concat(row)); row = {} end
-        table.insert(row, reps[val])
-      end
-    end,
-  draw =
-    function(self, theGrid)
-	  for x, y, val in self.grid:eachCell() do
-		if val then theGrid:fillCell(x, y) end
-	  end
     end
 }
 
