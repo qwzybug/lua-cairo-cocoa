@@ -1,0 +1,93 @@
+BREAKING: Lua talks to Cairo in Quartz through Cocoa!
+
+Fun.
+
+Here are some examples of things you can try.
+
+-- Lua/Cairo recipes
+
+-- Randomly colored grid
+for i = 1,10 do
+  for j = 1,10 do
+    c:rectangle{x=36*(i-1), y=(36*(j-1)),
+                width=36, height=36}
+    c.color = {r=math.random(), g=math.random(),
+               b=math.random(), a=1}
+    c:fill()
+  end
+end
+
+-- Randomly colored random rectangles
+randomrect = function()
+  c:rectangle{x = 360 * math.random(),
+              y = 360 * math.random(),
+              width = 100 * math.random(),
+              height = 100 * math.random() }
+  c.color = {r=math.random(), g=math.random(),
+             b=math.random(), a=1}
+  c:fill()
+end
+
+for i = 1, 100 do
+  randomrect()
+end
+
+-- neat red spiral thing
+c:clear(Color.black)
+for i = 1,72 do
+  c:circle{x=180+math.sin(i*math.pi/18)*120,
+           y=180+math.cos(i*math.pi/18)*120,
+           r=72-i}
+  c.color = {r=i/72, g=0, b=0, a=1}
+  c:fill()
+end
+
+-- you can do a lot of fun spirals if you tweak things
+c:clear(Color.black)
+c:rectangle(c.bounds)
+c:fill()
+
+for i = 1,180 do
+  c:circle{x=180+math.sin(i*math.pi/36)*(180-i),
+           y=180+math.cos(i*math.pi/36)*(180-i),
+           r=math.sqrt(i)*3}
+  c.color = {r=i/180, g=0, b=0, a=1}
+  c:fill(true)
+  c.color = {r=1, g=0, b=i/180, a=0.2}
+  c:stroke()
+end
+
+-- math kicks ass!
+
+c:clear(Color.red)
+for i = 1,180 do
+  c:circle{x=180+math.sin(i*math.pi/36)*(180-i),
+           y=180+math.cos(i*math.pi/36)*i,
+           r=math.sqrt(180-i)*4}
+  c.color = {r=0, g=0, b=i/180, a=0.1}
+  c:fill(true)
+  c.color = {r=1, g=0, b=i/180, a=0.2}
+  c:stroke()
+end
+
+-- more fun with math
+
+for i = 1, 200 do
+	c:moveTo{x=360*i/200, y=180-10*math.sin(5*math.pi*i/200)}
+	c:lineTo{x=360*i/200, y=180-50*math.cos(5*math.pi*i/200)}
+	c.color = Color.random()
+	c:stroke()
+end
+
+
+-- fun GUI stuff!
+
+b = Button.new{
+	bounds = {x=105, y=155, width=150, height=50},
+	title = "Click me!",
+	action = function(self)
+		c.color = Color.random()
+		c:rectangle(c.bounds)
+		c:fill()
+	end
+}
