@@ -44,9 +44,6 @@ end
 
 -- you can do a lot of fun spirals if you tweak things
 c:clear(Color.black)
-c:rectangle(c.bounds)
-c:fill()
-
 for i = 1,180 do
   c:circle{x=180+math.sin(i*math.pi/36)*(180-i),
            y=180+math.cos(i*math.pi/36)*(180-i),
