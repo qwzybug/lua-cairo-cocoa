@@ -178,7 +178,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {810, 2422}}";
 			sepNavSelRange = "{1283, 0}";
-			sepNavVisRange = "{1127, 989}";
+			sepNavVisRange = "{1095, 1019}";
 			sepNavWindowFrame = "{{15, 151}, {821, 722}}";
 		};
 	};
@@ -2615,7 +2615,7 @@
 	};
 	03C0309B0EC3EA9E00BBA802 /* core.lua */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {762, 2464}}";
+			sepNavIntBoundsRect = "{{0, 0}, {762, 2450}}";
 			sepNavSelRange = "{32, 0}";
 			sepNavVisRange = "{0, 1047}";
 		};
@@ -6850,6 +6850,46 @@
 		vrLen = 1047;
 		vrLoc = 0;
 	};
+	03C0330D0EC4CE5C00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 54";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 1127;
+	};
+	03C0330E0EC4CE5C00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 32;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 0;
+	};
+	03C033120EC4D03B00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 54";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 1019;
+		vrLoc = 1095;
+	};
+	03C033130EC4D03B00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 32;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 0;
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeArchitecturePreference = i386;
 		activeBuildConfigurationName = Release;
@@ -7590,6 +7630,10 @@
 			03C033080EC4CD0100BBA802 /* PBXTextBookmark */ = 03C033080EC4CD0100BBA802 /* PBXTextBookmark */;
 			03C0330A0EC4CD3200BBA802 /* PBXTextBookmark */ = 03C0330A0EC4CD3200BBA802 /* PBXTextBookmark */;
 			03C0330B0EC4CD3200BBA802 /* PBXTextBookmark */ = 03C0330B0EC4CD3200BBA802 /* PBXTextBookmark */;
+			03C0330D0EC4CE5C00BBA802 /* PBXTextBookmark */ = 03C0330D0EC4CE5C00BBA802 /* PBXTextBookmark */;
+			03C0330E0EC4CE5C00BBA802 /* PBXTextBookmark */ = 03C0330E0EC4CE5C00BBA802 /* PBXTextBookmark */;
+			03C033120EC4D03B00BBA802 /* PBXTextBookmark */ = 03C033120EC4D03B00BBA802 /* PBXTextBookmark */;
+			03C033130EC4D03B00BBA802 /* PBXTextBookmark */ = 03C033130EC4D03B00BBA802 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 03C02D580EC2895300BBA802 /* Source Control */;
 		userBuildSettings = {

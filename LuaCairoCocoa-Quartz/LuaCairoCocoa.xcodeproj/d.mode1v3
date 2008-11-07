@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>03C0330B0EC4CD3200BBA802</string>
+						<string>03C033130EC4D03B00BBA802</string>
 						<key>history</key>
 						<array>
 							<string>03C0314A0EC3FD6D00BBA802</string>
@@ -328,11 +328,11 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>46</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 209}, {246, 648}}</string>
+							<string>{{0, 0}, {246, 648}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -379,7 +379,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>03C0330A0EC4CD3200BBA802</string>
+										<string>03C033120EC4D03B00BBA802</string>
 										<key>history</key>
 										<array>
 											<string>03C02D7A0EC28B6A00BBA802</string>
@@ -702,9 +702,9 @@
 		<string>03C030C60EC3ECF900BBA802</string>
 		<string>03C030C70EC3ECF900BBA802</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>03C02D660EC28A1400BBA802</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>03C031480EC3FD6D00BBA802</string>
+		<string>03C02D660EC28A1400BBA802</string>
 		<string>/Users/d/Desktop/lua-cairo-cocoa/LuaCairoCocoa-Quartz/LuaCairoCocoa.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
