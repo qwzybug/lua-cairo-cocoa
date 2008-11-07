@@ -1,3 +1,6 @@
+package.path = LUA_PATH.."/?.lua"
+package.cpath = LUA_PATH.."/?.so"
+
 require"cairo"
 
 -- the controller should set VIEWPORT_WIDTH and VIEWPORT_HEIGHT before executing this file

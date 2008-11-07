@@ -50,9 +50,14 @@ static int l_setNeedsDisplay(lua_State *L) {
 	lua_pushlightuserdata(L, self);
 	lua_setglobal(L, "self");
 	
-	self.viewport = theViewport;
+	NSString *directory = [[NSBundle mainBundle] resourcePath];
+	const char *dir = [directory cStringUsingEncoding:NSASCIIStringEncoding];
+	lua_pushstring(L, dir);
+	lua_setglobal(L, "LUA_PATH");
 	
 	// let's tell lua about the viewport
+	self.viewport = theViewport;
+	
 	lua_pushcfunction(L, l_setCairoContext);
 	lua_setglobal(L, "SET_CAIRO_CONTEXT");
 	

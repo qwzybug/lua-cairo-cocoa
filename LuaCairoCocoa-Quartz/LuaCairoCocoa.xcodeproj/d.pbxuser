@@ -16,16 +16,6 @@
 		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
-			{
-				active = YES;
-				name = LUA_CPATH;
-				value = "LuaCairoCocoa.app/Contents/Resources/?.so";
-			},
-			{
-				active = YES;
-				name = LUA_PATH;
-				value = "LuaCairoCocoa.app/Contents/Resources/?.lua";
-			},
 		);
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
@@ -51,9 +41,9 @@
 	};
 	03C02D5B0EC2899500BBA802 /* CairoView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {703, 408}}";
-			sepNavSelRange = "{296, 0}";
-			sepNavVisRange = "{0, 527}";
+			sepNavIntBoundsRect = "{{0, 0}, {595, 378}}";
+			sepNavSelRange = "{169, 18}";
+			sepNavVisRange = "{0, 421}";
 		};
 	};
 	03C02D5C0EC2899500BBA802 /* CairoView.m */ = {
@@ -179,16 +169,16 @@
 	};
 	03C02DB10EC2C89500BBA802 /* LuaController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {595, 476}}";
-			sepNavSelRange = "{273, 59}";
-			sepNavVisRange = "{173, 509}";
+			sepNavIntBoundsRect = "{{0, 0}, {703, 476}}";
+			sepNavSelRange = "{271, 0}";
+			sepNavVisRange = "{0, 704}";
 		};
 	};
 	03C02DB20EC2C89500BBA802 /* LuaController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {810, 2464}}";
-			sepNavSelRange = "{2185, 0}";
-			sepNavVisRange = "{3477, 771}";
+			sepNavIntBoundsRect = "{{0, 0}, {810, 2422}}";
+			sepNavSelRange = "{1283, 0}";
+			sepNavVisRange = "{1127, 989}";
 			sepNavWindowFrame = "{{15, 151}, {821, 722}}";
 		};
 	};
@@ -556,7 +546,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 51";
 		rLen = 0;
-		rLoc = 2644;
+		rLoc = 2838;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 516;
@@ -593,7 +583,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 26";
 		rLen = 0;
-		rLoc = 2112;
+		rLoc = 2306;
 		rType = 0;
 		vrLen = 935;
 		vrLoc = 220;
@@ -660,7 +650,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 70";
 		rLen = 20;
-		rLoc = 2875;
+		rLoc = 3069;
 		rType = 0;
 		vrLen = 759;
 		vrLoc = 1244;
@@ -680,7 +670,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 101";
 		rLen = 0;
-		rLoc = 4241;
+		rLoc = 4435;
 		rType = 0;
 		vrLen = 695;
 		vrLoc = 1348;
@@ -700,7 +690,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 101";
 		rLen = 0;
-		rLoc = 4241;
+		rLoc = 4435;
 		rType = 0;
 		vrLen = 736;
 		vrLoc = 1348;
@@ -720,7 +710,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 102";
 		rLen = 0;
-		rLoc = 4241;
+		rLoc = 4435;
 		rType = 0;
 		vrLen = 797;
 		vrLoc = 1345;
@@ -740,7 +730,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 102";
 		rLen = 0;
-		rLoc = 4241;
+		rLoc = 4435;
 		rType = 0;
 		vrLen = 667;
 		vrLoc = 0;
@@ -800,7 +790,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 61";
 		rLen = 0;
-		rLoc = 2642;
+		rLoc = 2836;
 		rType = 0;
 		vrLen = 672;
 		vrLoc = 859;
@@ -833,7 +823,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 59";
 		rLen = 21;
-		rLoc = 2480;
+		rLoc = 2674;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 877;
@@ -863,7 +853,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 109";
 		rLen = 5;
-		rLoc = 4243;
+		rLoc = 4437;
 		rType = 0;
 		vrLen = 819;
 		vrLoc = 1414;
@@ -893,7 +883,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 109";
 		rLen = 5;
-		rLoc = 4243;
+		rLoc = 4437;
 		rType = 0;
 		vrLen = 839;
 		vrLoc = 1394;
@@ -1182,7 +1172,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 50";
 		rLen = 0;
-		rLoc = 2186;
+		rLoc = 2380;
 		rType = 0;
 		vrLen = 947;
 		vrLoc = 433;
@@ -1238,7 +1228,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 67";
 		rLen = 0;
-		rLoc = 2207;
+		rLoc = 2401;
 		rType = 0;
 		vrLen = 878;
 		vrLoc = 886;
@@ -1428,7 +1418,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 47";
 		rLen = 0;
-		rLoc = 2186;
+		rLoc = 2380;
 		rType = 0;
 		vrLen = 1001;
 		vrLoc = 317;
@@ -1558,7 +1548,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 43";
 		rLen = 0;
-		rLoc = 2111;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 274;
@@ -1994,7 +1984,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 53";
 		rLen = 0;
-		rLoc = 1533;
+		rLoc = 1727;
 		rType = 0;
 		vrLen = 1026;
 		vrLoc = 407;
@@ -2294,16 +2284,16 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 66";
 		rLen = 0;
-		rLoc = 2110;
+		rLoc = 2304;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 611;
 	};
 	03C030180EC3022C00BBA802 /* conway.lua */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {703, 2156}}";
-			sepNavSelRange = "{3405, 0}";
-			sepNavVisRange = "{2902, 755}";
+			sepNavIntBoundsRect = "{{0, 0}, {703, 1960}}";
+			sepNavSelRange = "{3194, 0}";
+			sepNavVisRange = "{1168, 783}";
 		};
 	};
 	03C0301B0EC3024600BBA802 /* PBXTextBookmark */ = {
@@ -2331,7 +2321,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 1";
 		rLen = 0;
-		rLoc = 3970;
+		rLoc = 3580;
 		rType = 0;
 		vrLen = 13;
 		vrLoc = 0;
@@ -2351,7 +2341,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 86";
 		rLen = 0;
-		rLoc = 3970;
+		rLoc = 3580;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 1076;
@@ -2381,7 +2371,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 97";
 		rLen = 0;
-		rLoc = 3970;
+		rLoc = 3580;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 1344;
@@ -2441,7 +2431,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 62";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 797;
 		vrLoc = 992;
@@ -2521,7 +2511,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 62";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 797;
 		vrLoc = 992;
@@ -2541,7 +2531,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 118";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 2486;
@@ -2551,7 +2541,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 118";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 725;
 		vrLoc = 2486;
@@ -2581,7 +2571,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 118";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 2477;
@@ -2608,7 +2598,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 118";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 792;
 		vrLoc = 2419;
@@ -2625,9 +2615,9 @@
 	};
 	03C0309B0EC3EA9E00BBA802 /* core.lua */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {703, 2520}}";
-			sepNavSelRange = "{3391, 0}";
-			sepNavVisRange = "{0, 859}";
+			sepNavIntBoundsRect = "{{0, 0}, {762, 2464}}";
+			sepNavSelRange = "{32, 0}";
+			sepNavVisRange = "{0, 1047}";
 		};
 	};
 	03C0309E0EC3EB1200BBA802 /* PBXTextBookmark */ = {
@@ -2635,7 +2625,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 118";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 792;
 		vrLoc = 2419;
@@ -2645,7 +2635,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 102;
 		vrLoc = 0;
@@ -2665,7 +2655,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 118";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 792;
 		vrLoc = 2419;
@@ -2675,7 +2665,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 102;
 		vrLoc = 0;
@@ -2725,7 +2715,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 102;
 		vrLoc = 0;
@@ -2745,7 +2735,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 3";
 		rLen = 19;
-		rLoc = 140;
+		rLoc = 209;
 		rType = 0;
 		vrLen = 102;
 		vrLoc = 0;
@@ -2775,7 +2765,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 76";
 		rLen = 0;
-		rLoc = 1370;
+		rLoc = 1564;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 1082;
@@ -2805,7 +2795,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 3";
 		rLen = 19;
-		rLoc = 140;
+		rLoc = 209;
 		rType = 0;
 		vrLen = 102;
 		vrLoc = 0;
@@ -2815,7 +2805,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 102;
 		vrLoc = 0;
@@ -2865,7 +2855,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 76";
 		rLen = 0;
-		rLoc = 1370;
+		rLoc = 1564;
 		rType = 0;
 		vrLen = 1105;
 		vrLoc = 1082;
@@ -2875,7 +2865,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 3";
 		rLen = 27;
-		rLoc = 112;
+		rLoc = 181;
 		rType = 0;
 		vrLen = 102;
 		vrLoc = 0;
@@ -2895,7 +2885,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 3";
 		rLen = 19;
-		rLoc = 140;
+		rLoc = 209;
 		rType = 0;
 		vrLen = 102;
 		vrLoc = 0;
@@ -2925,7 +2915,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 7";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 152;
 		vrLoc = 0;
@@ -2945,7 +2935,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 8";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 163;
 		vrLoc = 0;
@@ -2965,7 +2955,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 7";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 152;
 		vrLoc = 0;
@@ -2985,7 +2975,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 257;
+		rLoc = 326;
 		rType = 0;
 		vrLen = 152;
 		vrLoc = 0;
@@ -3005,7 +2995,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 257;
+		rLoc = 326;
 		rType = 0;
 		vrLen = 152;
 		vrLoc = 0;
@@ -3135,7 +3125,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 78";
 		rLen = 0;
-		rLoc = 1370;
+		rLoc = 1564;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 1062;
@@ -3145,7 +3135,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 257;
+		rLoc = 326;
 		rType = 0;
 		vrLen = 152;
 		vrLoc = 0;
@@ -3235,7 +3225,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 78";
 		rLen = 0;
-		rLoc = 1370;
+		rLoc = 1564;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 1062;
@@ -3245,7 +3235,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 222;
+		rLoc = 291;
 		rType = 0;
 		vrLen = 164;
 		vrLoc = 0;
@@ -3255,7 +3245,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 383;
+		rLoc = 452;
 		rType = 0;
 		vrLen = 148;
 		vrLoc = 0;
@@ -3265,7 +3255,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 383;
+		rLoc = 452;
 		rType = 0;
 		vrLen = 148;
 		vrLoc = 0;
@@ -3275,7 +3265,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 78";
 		rLen = 0;
-		rLoc = 1370;
+		rLoc = 1564;
 		rType = 0;
 		vrLen = 1115;
 		vrLoc = 1138;
@@ -3285,7 +3275,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 383;
+		rLoc = 452;
 		rType = 0;
 		vrLen = 148;
 		vrLoc = 0;
@@ -3295,7 +3285,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 78";
 		rLen = 0;
-		rLoc = 1370;
+		rLoc = 1564;
 		rType = 0;
 		vrLen = 1115;
 		vrLoc = 1138;
@@ -3305,7 +3295,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 78";
 		rLen = 0;
-		rLoc = 1370;
+		rLoc = 1564;
 		rType = 0;
 		vrLen = 1115;
 		vrLoc = 1138;
@@ -3315,7 +3305,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 78";
 		rLen = 0;
-		rLoc = 1370;
+		rLoc = 1564;
 		rType = 0;
 		vrLen = 1115;
 		vrLoc = 1138;
@@ -3365,7 +3355,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 84";
 		rLen = 0;
-		rLoc = 1375;
+		rLoc = 1569;
 		rType = 0;
 		vrLen = 1130;
 		vrLoc = 1217;
@@ -3385,7 +3375,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 84";
 		rLen = 0;
-		rLoc = 1375;
+		rLoc = 1569;
 		rType = 0;
 		vrLen = 1130;
 		vrLoc = 1217;
@@ -3405,7 +3395,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 94";
 		rLen = 0;
-		rLoc = 1621;
+		rLoc = 1815;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 1732;
@@ -3415,7 +3405,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 94";
 		rLen = 0;
-		rLoc = 1621;
+		rLoc = 1815;
 		rType = 0;
 		vrLen = 1064;
 		vrLoc = 1732;
@@ -3425,7 +3415,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 94";
 		rLen = 0;
-		rLoc = 1621;
+		rLoc = 1815;
 		rType = 0;
 		vrLen = 1071;
 		vrLoc = 1732;
@@ -3435,7 +3425,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 94";
 		rLen = 0;
-		rLoc = 1621;
+		rLoc = 1815;
 		rType = 0;
 		vrLen = 1071;
 		vrLoc = 1732;
@@ -3525,7 +3515,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 383;
+		rLoc = 452;
 		rType = 0;
 		vrLen = 148;
 		vrLoc = 0;
@@ -3565,7 +3555,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 5";
 		rLen = 0;
-		rLoc = 383;
+		rLoc = 452;
 		rType = 0;
 		vrLen = 148;
 		vrLoc = 0;
@@ -3635,7 +3625,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 34";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 0;
@@ -3695,7 +3685,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 34";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 0;
@@ -3739,7 +3729,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 34";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 0;
@@ -3749,7 +3739,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 1182;
@@ -3779,7 +3769,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 1182;
@@ -3819,7 +3809,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 23";
 		rLen = 0;
-		rLoc = 2239;
+		rLoc = 2308;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 0;
@@ -3839,7 +3829,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 23";
 		rLen = 0;
-		rLoc = 2239;
+		rLoc = 2308;
 		rType = 0;
 		vrLen = 993;
 		vrLoc = 0;
@@ -3879,7 +3869,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 20";
 		rLen = 0;
-		rLoc = 2238;
+		rLoc = 2307;
 		rType = 0;
 		vrLen = 1083;
 		vrLoc = 0;
@@ -3899,7 +3889,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 39";
 		rLen = 0;
-		rLoc = 2683;
+		rLoc = 2752;
 		rType = 0;
 		vrLen = 1444;
 		vrLoc = 15;
@@ -3919,7 +3909,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 39";
 		rLen = 0;
-		rLoc = 2643;
+		rLoc = 2712;
 		rType = 0;
 		vrLen = 1255;
 		vrLoc = 329;
@@ -3939,7 +3929,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 34";
 		rLen = 0;
-		rLoc = 2301;
+		rLoc = 2370;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 329;
@@ -3959,7 +3949,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 37";
 		rLen = 0;
-		rLoc = 2342;
+		rLoc = 2411;
 		rType = 0;
 		vrLen = 1256;
 		vrLoc = 329;
@@ -3979,7 +3969,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 42";
 		rLen = 0;
-		rLoc = 2640;
+		rLoc = 2709;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 329;
@@ -3999,7 +3989,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 41";
 		rLen = 0;
-		rLoc = 2239;
+		rLoc = 2308;
 		rType = 0;
 		vrLen = 1252;
 		vrLoc = 581;
@@ -4019,7 +4009,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 47";
 		rLen = 0;
-		rLoc = 2340;
+		rLoc = 2409;
 		rType = 0;
 		vrLen = 1254;
 		vrLoc = 581;
@@ -4039,7 +4029,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 51";
 		rLen = 0;
-		rLoc = 2612;
+		rLoc = 2681;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 581;
@@ -4059,7 +4049,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 53";
 		rLen = 0;
-		rLoc = 2683;
+		rLoc = 2752;
 		rType = 0;
 		vrLen = 1207;
 		vrLoc = 582;
@@ -4099,7 +4089,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 1441;
@@ -4119,7 +4109,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 1441;
@@ -4169,7 +4159,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4179,7 +4169,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 45";
 		rLen = 15;
-		rLoc = 1253;
+		rLoc = 1322;
 		rType = 0;
 		vrLen = 1198;
 		vrLoc = 696;
@@ -4189,7 +4179,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4199,7 +4189,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 53";
 		rLen = 0;
-		rLoc = 1746;
+		rLoc = 1815;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 845;
@@ -4209,7 +4199,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4219,7 +4209,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 47";
 		rLen = 0;
-		rLoc = 1389;
+		rLoc = 1458;
 		rType = 0;
 		vrLen = 1236;
 		vrLoc = 845;
@@ -4229,7 +4219,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4239,7 +4229,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 40";
 		rLen = 0;
-		rLoc = 1049;
+		rLoc = 1118;
 		rType = 0;
 		vrLen = 1237;
 		vrLoc = 845;
@@ -4249,7 +4239,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4259,7 +4249,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 48";
 		rLen = 0;
-		rLoc = 1422;
+		rLoc = 1491;
 		rType = 0;
 		vrLen = 1238;
 		vrLoc = 845;
@@ -4269,7 +4259,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4279,7 +4269,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 47";
 		rLen = 0;
-		rLoc = 1400;
+		rLoc = 1469;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 845;
@@ -4289,7 +4279,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4299,7 +4289,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 67";
 		rLen = 0;
-		rLoc = 2030;
+		rLoc = 2099;
 		rType = 0;
 		vrLen = 1258;
 		vrLoc = 845;
@@ -4309,7 +4299,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4319,7 +4309,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 70";
 		rLen = 0;
-		rLoc = 2198;
+		rLoc = 2267;
 		rType = 0;
 		vrLen = 1563;
 		vrLoc = 903;
@@ -4329,7 +4319,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4339,7 +4329,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 90";
 		rLen = 0;
-		rLoc = 3076;
+		rLoc = 3145;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 1273;
@@ -4349,7 +4339,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4359,7 +4349,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 57";
 		rLen = 0;
-		rLoc = 1291;
+		rLoc = 1453;
 		rType = 0;
 		vrLen = 751;
 		vrLoc = 0;
@@ -4379,7 +4369,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 90";
 		rLen = 0;
-		rLoc = 3076;
+		rLoc = 3145;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 1273;
@@ -4419,7 +4409,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 90";
 		rLen = 0;
-		rLoc = 3076;
+		rLoc = 3145;
 		rType = 0;
 		vrLen = 1467;
 		vrLoc = 1200;
@@ -4439,7 +4429,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 90";
 		rLen = 0;
-		rLoc = 3076;
+		rLoc = 3145;
 		rType = 0;
 		vrLen = 1467;
 		vrLoc = 1200;
@@ -4677,7 +4667,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 156";
 		rLen = 0;
-		rLoc = 3592;
+		rLoc = 3786;
 		rType = 0;
 		vrLen = 564;
 		vrLoc = 3085;
@@ -4697,7 +4687,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 160";
 		rLen = 0;
-		rLoc = 3891;
+		rLoc = 4085;
 		rType = 0;
 		vrLen = 566;
 		vrLoc = 3231;
@@ -4747,7 +4737,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 154";
 		rLen = 39;
-		rLoc = 3551;
+		rLoc = 3745;
 		rType = 0;
 		vrLen = 566;
 		vrLoc = 3231;
@@ -4807,7 +4797,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 95";
 		rLen = 0;
-		rLoc = 3072;
+		rLoc = 3141;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 1368;
@@ -4817,7 +4807,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 154";
 		rLen = 0;
-		rLoc = 3592;
+		rLoc = 3786;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 3208;
@@ -4827,7 +4817,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 95";
 		rLen = 0;
-		rLoc = 3072;
+		rLoc = 3141;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 1368;
@@ -4837,7 +4827,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 155";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 3814;
 		rType = 0;
 		vrLen = 597;
 		vrLoc = 3208;
@@ -4847,7 +4837,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 95";
 		rLen = 0;
-		rLoc = 3072;
+		rLoc = 3141;
 		rType = 0;
 		vrLen = 1394;
 		vrLoc = 1368;
@@ -4857,7 +4847,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 155";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 3814;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 3208;
@@ -4867,7 +4857,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 97";
 		rLen = 0;
-		rLoc = 3072;
+		rLoc = 3141;
 		rType = 0;
 		vrLen = 1338;
 		vrLoc = 1443;
@@ -4877,7 +4867,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 155";
 		rLen = 0;
-		rLoc = 3620;
+		rLoc = 3814;
 		rType = 0;
 		vrLen = 602;
 		vrLoc = 3208;
@@ -4887,7 +4877,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 95";
 		rLen = 0;
-		rLoc = 2955;
+		rLoc = 3024;
 		rType = 0;
 		vrLen = 1338;
 		vrLoc = 1443;
@@ -4897,7 +4887,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 157";
 		rLen = 0;
-		rLoc = 3707;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 3208;
@@ -4907,7 +4897,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 95";
 		rLen = 0;
-		rLoc = 2955;
+		rLoc = 3024;
 		rType = 0;
 		vrLen = 1338;
 		vrLoc = 1443;
@@ -4917,7 +4907,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 157";
 		rLen = 0;
-		rLoc = 3707;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 3208;
@@ -4927,7 +4917,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 96";
 		rLen = 0;
-		rLoc = 2955;
+		rLoc = 3024;
 		rType = 0;
 		vrLen = 908;
 		vrLoc = 2772;
@@ -4937,7 +4927,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 157";
 		rLen = 0;
-		rLoc = 3707;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 3208;
@@ -4947,7 +4937,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 112";
 		rLen = 0;
-		rLoc = 3656;
+		rLoc = 3725;
 		rType = 0;
 		vrLen = 912;
 		vrLoc = 2772;
@@ -4957,7 +4947,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 157";
 		rLen = 0;
-		rLoc = 3707;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 3208;
@@ -4967,7 +4957,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 112";
 		rLen = 0;
-		rLoc = 3648;
+		rLoc = 3717;
 		rType = 0;
 		vrLen = 917;
 		vrLoc = 2772;
@@ -4977,7 +4967,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 157";
 		rLen = 0;
-		rLoc = 3707;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 3208;
@@ -4987,7 +4977,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 109";
 		rLen = 0;
-		rLoc = 3492;
+		rLoc = 3561;
 		rType = 0;
 		vrLen = 932;
 		vrLoc = 2695;
@@ -4997,7 +4987,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 157";
 		rLen = 0;
-		rLoc = 3707;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 3208;
@@ -5007,7 +4997,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 109";
 		rLen = 0;
-		rLoc = 3536;
+		rLoc = 3605;
 		rType = 0;
 		vrLen = 956;
 		vrLoc = 2695;
@@ -5017,7 +5007,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 157";
 		rLen = 0;
-		rLoc = 3707;
+		rLoc = 3901;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 3208;
@@ -5027,7 +5017,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 112";
 		rLen = 0;
-		rLoc = 3609;
+		rLoc = 3678;
 		rType = 0;
 		vrLen = 961;
 		vrLoc = 2695;
@@ -5037,7 +5027,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 170";
 		rLen = 0;
-		rLoc = 4208;
+		rLoc = 4402;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 3455;
@@ -5067,7 +5057,7 @@
 		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
 		name = "LuaController.m: 170";
 		rLen = 0;
-		rLoc = 4208;
+		rLoc = 4402;
 		rType = 0;
 		vrLen = 771;
 		vrLoc = 3455;
@@ -5097,7 +5087,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 130";
 		rLen = 0;
-		rLoc = 4627;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 3004;
@@ -5117,7 +5107,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 147";
 		rLen = 0;
-		rLoc = 4627;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 3004;
@@ -5137,7 +5127,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 136";
 		rLen = 0;
-		rLoc = 4627;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 2994;
@@ -5157,7 +5147,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 162";
 		rLen = 0;
-		rLoc = 4627;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 794;
 		vrLoc = 3359;
@@ -5177,7 +5167,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 152";
 		rLen = 0;
-		rLoc = 4437;
+		rLoc = 4506;
 		rType = 0;
 		vrLen = 796;
 		vrLoc = 3359;
@@ -5197,7 +5187,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 143";
 		rLen = 0;
-		rLoc = 4222;
+		rLoc = 4291;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 3444;
@@ -5217,7 +5207,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 143";
 		rLen = 0;
-		rLoc = 4151;
+		rLoc = 4220;
 		rType = 0;
 		vrLen = 872;
 		vrLoc = 3403;
@@ -5237,7 +5227,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 143";
 		rLen = 0;
-		rLoc = 4220;
+		rLoc = 4289;
 		rType = 0;
 		vrLen = 874;
 		vrLoc = 3403;
@@ -5257,7 +5247,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 152";
 		rLen = 0;
-		rLoc = 4388;
+		rLoc = 4457;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3444;
@@ -5277,7 +5267,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 154";
 		rLen = 0;
-		rLoc = 4352;
+		rLoc = 4421;
 		rType = 0;
 		vrLen = 848;
 		vrLoc = 3571;
@@ -5297,7 +5287,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 2";
 		rLen = 0;
-		rLoc = 14;
+		rLoc = 83;
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 0;
@@ -5317,7 +5307,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 2";
 		rLen = 0;
-		rLoc = 14;
+		rLoc = 83;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 0;
@@ -5337,7 +5327,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 2";
 		rLen = 0;
-		rLoc = 14;
+		rLoc = 83;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 0;
@@ -5357,7 +5347,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 2";
 		rLen = 0;
-		rLoc = 14;
+		rLoc = 83;
 		rType = 0;
 		vrLen = 1068;
 		vrLoc = 0;
@@ -5377,7 +5367,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 2";
 		rLen = 0;
-		rLoc = 14;
+		rLoc = 83;
 		rType = 0;
 		vrLen = 1081;
 		vrLoc = 0;
@@ -5397,7 +5387,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 3";
 		rLen = 0;
-		rLoc = 14;
+		rLoc = 83;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 0;
@@ -5417,7 +5407,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 2";
 		rLen = 0;
-		rLoc = 14;
+		rLoc = 83;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 0;
@@ -5437,7 +5427,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 1";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 69;
 		rType = 0;
 		vrLen = 1079;
 		vrLoc = 0;
@@ -5457,7 +5447,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 54";
 		rLen = 0;
-		rLoc = 1430;
+		rLoc = 1499;
 		rType = 0;
 		vrLen = 1417;
 		vrLoc = 1053;
@@ -5477,7 +5467,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 51";
 		rLen = 0;
-		rLoc = 1197;
+		rLoc = 1266;
 		rType = 0;
 		vrLen = 1076;
 		vrLoc = 767;
@@ -5497,7 +5487,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 955;
 		vrLoc = 500;
@@ -5527,7 +5517,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 177";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 0;
@@ -5547,7 +5537,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 101";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 2036;
@@ -5567,7 +5557,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "cairo.lua: 177";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 0;
@@ -5587,7 +5577,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 118";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 734;
 		vrLoc = 2477;
@@ -5607,7 +5597,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 101";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 704;
 		vrLoc = 2036;
@@ -5617,7 +5607,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 177";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 0;
@@ -5637,7 +5627,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 130";
 		rLen = 0;
-		rLoc = 3970;
+		rLoc = 3580;
 		rType = 0;
 		vrLen = 626;
 		vrLoc = 2561;
@@ -5647,7 +5637,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3676;
@@ -5657,7 +5647,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 130";
 		rLen = 0;
-		rLoc = 3943;
+		rLoc = 3553;
 		rType = 0;
 		vrLen = 626;
 		vrLoc = 2561;
@@ -5667,7 +5657,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3676;
@@ -5677,7 +5667,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 108";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 626;
 		vrLoc = 2561;
@@ -5687,7 +5677,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3676;
@@ -5697,7 +5687,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 102";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 687;
 		vrLoc = 2338;
@@ -5707,7 +5697,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3676;
@@ -5717,7 +5707,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 120";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 604;
 		vrLoc = 2595;
@@ -5727,7 +5717,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3676;
@@ -5737,7 +5727,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 109";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 755;
 		vrLoc = 2377;
@@ -5747,7 +5737,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3676;
@@ -5757,7 +5747,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 119";
 		rLen = 0;
-		rLoc = 3877;
+		rLoc = 3487;
 		rType = 0;
 		vrLen = 686;
 		vrLoc = 2597;
@@ -5767,7 +5757,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3676;
@@ -5777,7 +5767,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 150";
 		rLen = 0;
-		rLoc = 3970;
+		rLoc = 3580;
 		rType = 0;
 		vrLen = 582;
 		vrLoc = 3223;
@@ -5787,7 +5777,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3676;
@@ -5797,7 +5787,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 131";
 		rLen = 0;
-		rLoc = 3633;
+		rLoc = 3243;
 		rType = 0;
 		vrLen = 651;
 		vrLoc = 3119;
@@ -5807,7 +5797,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3676;
@@ -5817,7 +5807,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 123";
 		rLen = 0;
-		rLoc = 3479;
+		rLoc = 3089;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 2874;
@@ -5827,7 +5817,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 3676;
@@ -5837,7 +5827,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 118";
 		rLen = 0;
-		rLoc = 3339;
+		rLoc = 2949;
 		rType = 0;
 		vrLen = 770;
 		vrLoc = 2696;
@@ -5847,7 +5837,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 177";
 		rLen = 0;
-		rLoc = 4628;
+		rLoc = 4697;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 0;
@@ -5857,7 +5847,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 118";
 		rLen = 0;
-		rLoc = 3339;
+		rLoc = 2949;
 		rType = 0;
 		vrLen = 770;
 		vrLoc = 2696;
@@ -5867,7 +5857,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 125";
 		rLen = 0;
-		rLoc = 3476;
+		rLoc = 3545;
 		rType = 0;
 		vrLen = 576;
 		vrLoc = 3211;
@@ -5877,7 +5867,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 3381;
@@ -5887,7 +5877,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 125";
 		rLen = 0;
-		rLoc = 3391;
+		rLoc = 3460;
 		rType = 0;
 		vrLen = 613;
 		vrLoc = 3211;
@@ -5897,7 +5887,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -5907,7 +5897,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 125";
 		rLen = 0;
-		rLoc = 3391;
+		rLoc = 3460;
 		rType = 0;
 		vrLen = 613;
 		vrLoc = 3211;
@@ -5917,7 +5907,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 118";
 		rLen = 0;
-		rLoc = 3339;
+		rLoc = 2949;
 		rType = 0;
 		vrLen = 770;
 		vrLoc = 2696;
@@ -5927,7 +5917,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 125";
 		rLen = 0;
-		rLoc = 3391;
+		rLoc = 3460;
 		rType = 0;
 		vrLen = 613;
 		vrLoc = 3211;
@@ -5937,7 +5927,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 104";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2557;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 2341;
@@ -5947,7 +5937,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -5957,7 +5947,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 102";
 		rLen = 0;
-		rLoc = 2695;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 795;
 		vrLoc = 2338;
@@ -5967,7 +5957,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -5977,7 +5967,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 102";
 		rLen = 0;
-		rLoc = 2695;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 796;
 		vrLoc = 2338;
@@ -5987,7 +5977,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -5997,7 +5987,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 101";
 		rLen = 0;
-		rLoc = 2695;
+		rLoc = 2305;
 		rType = 0;
 		vrLen = 879;
 		vrLoc = 2375;
@@ -6007,7 +5997,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -6017,7 +6007,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 104";
 		rLen = 0;
-		rLoc = 2817;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 881;
 		vrLoc = 2375;
@@ -6027,7 +6017,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -6037,7 +6027,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 104";
 		rLen = 0;
-		rLoc = 2835;
+		rLoc = 2445;
 		rType = 0;
 		vrLen = 845;
 		vrLoc = 2375;
@@ -6047,7 +6037,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -6057,7 +6047,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 104";
 		rLen = 0;
-		rLoc = 2835;
+		rLoc = 2445;
 		rType = 0;
 		vrLen = 908;
 		vrLoc = 2338;
@@ -6067,7 +6057,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -6077,7 +6067,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 140";
 		rLen = 0;
-		rLoc = 3828;
+		rLoc = 3438;
 		rType = 0;
 		vrLen = 691;
 		vrLoc = 3120;
@@ -6087,7 +6077,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -6097,7 +6087,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 91";
 		rLen = 0;
-		rLoc = 2372;
+		rLoc = 1982;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 2210;
@@ -6107,7 +6097,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -6117,7 +6107,7 @@
 		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
 		name = "conway.lua: 106";
 		rLen = 0;
-		rLoc = 2947;
+		rLoc = 2557;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 2433;
@@ -6127,7 +6117,7 @@
 		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
 		name = "core.lua: 8";
 		rLen = 0;
-		rLoc = 321;
+		rLoc = 390;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 3381;
@@ -6142,8 +6132,727 @@
 		vrLen = 509;
 		vrLoc = 173;
 	};
+	03C032A70EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DBD0EC2CCAC00BBA802 /* AppController.m */;
+		name = "AppController.m: 18";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 501;
+		vrLoc = 3;
+	};
+	03C032A80EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	03C032A90EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 85";
+		rLen = 0;
+		rLoc = 2379;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 3477;
+	};
+	03C032AA0EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 125";
+		rLen = 0;
+		rLoc = 3460;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 0;
+	};
+	03C032AB0EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02D5B0EC2899500BBA802 /* CairoView.h */;
+		name = "CairoView.h: 15";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 527;
+		vrLoc = 0;
+	};
+	03C032AC0EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02D5C0EC2899500BBA802 /* CairoView.m */;
+		name = "CairoView.m: 26";
+		rLen = 0;
+		rLoc = 672;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	03C032AD0EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
+		name = "conway.lua: 123";
+		rLen = 0;
+		rLoc = 3015;
+		rType = 0;
+		vrLen = 755;
+		vrLoc = 2902;
+	};
+	03C032AE0EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
+		name = "conway.lua: 123";
+		rLen = 0;
+		rLoc = 3015;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 0;
+	};
+	03C032AF0EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DBD0EC2CCAC00BBA802 /* AppController.m */;
+		name = "AppController.m: 18";
+		rLen = 0;
+		rLoc = 339;
+		rType = 0;
+		vrLen = 501;
+		vrLoc = 3;
+	};
+	03C032B00EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 170";
+		rLen = 0;
+		rLoc = 4402;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 1711;
+	};
+	03C032B10EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	03C032B20EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 85";
+		rLen = 0;
+		rLoc = 2379;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 3477;
+	};
+	03C032B30EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 125";
+		rLen = 0;
+		rLoc = 3460;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 0;
+	};
+	03C032B40EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
+		name = "conway.lua: 123";
+		rLen = 0;
+		rLoc = 3015;
+		rType = 0;
+		vrLen = 755;
+		vrLoc = 2902;
+	};
+	03C032B50EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02D5B0EC2899500BBA802 /* CairoView.h */;
+		name = "CairoView.h: 15";
+		rLen = 0;
+		rLoc = 296;
+		rType = 0;
+		vrLen = 527;
+		vrLoc = 0;
+	};
+	03C032B60EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02D5C0EC2899500BBA802 /* CairoView.m */;
+		name = "CairoView.m: 26";
+		rLen = 0;
+		rLoc = 672;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 0;
+	};
+	03C032B70EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
+		name = "conway.lua: 74";
+		rLen = 0;
+		rLoc = 1947;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 2199;
+	};
+	03C032B80EC4633100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 8";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 1042;
+		vrLoc = 3381;
+	};
+	03C032BB0EC4C64D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
+		name = "conway.lua: 119";
+		rLen = 0;
+		rLoc = 3194;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 1168;
+	};
+	03C032BC0EC4C64D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 125";
+		rLen = 0;
+		rLoc = 3460;
+		rType = 0;
+		vrLen = 863;
+		vrLoc = 0;
+	};
+	03C032BD0EC4C64D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C030180EC3022C00BBA802 /* conway.lua */;
+		name = "conway.lua: 119";
+		rLen = 0;
+		rLoc = 3194;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 1168;
+	};
+	03C032BE0EC4C64D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 125";
+		rLen = 0;
+		rLoc = 3460;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 3945;
+	};
+	03C032BF0EC4C64D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 8";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 3381;
+	};
+	03C032C00EC4C6BB00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 125";
+		rLen = 0;
+		rLoc = 3460;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 3945;
+	};
+	03C032C10EC4C6BB00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 8";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 3381;
+	};
+	03C032C20EC4C6EF00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 125";
+		rLen = 0;
+		rLoc = 3460;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 3945;
+	};
+	03C032C30EC4C6EF00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 8";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 3381;
+	};
+	03C032C50EC4C71100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 125";
+		rLen = 0;
+		rLoc = 3460;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 3945;
+	};
+	03C032C60EC4C71100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 8";
+		rLen = 0;
+		rLoc = 390;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 3381;
+	};
+	03C032C90EC4C7CD00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 18";
+		rLen = 59;
+		rLoc = 273;
+		rType = 0;
+		vrLen = 509;
+		vrLoc = 173;
+	};
+	03C032CA0EC4C7CD00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: cairo.h: No such file or directory";
+		fRef = 03C02D5B0EC2899500BBA802 /* CairoView.h */;
+		rLen = 1;
+		rLoc = 9;
+		rType = 1;
+	};
+	03C032CB0EC4C7CD00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 18";
+		rLen = 59;
+		rLoc = 273;
+		rType = 0;
+		vrLen = 509;
+		vrLoc = 173;
+	};
+	03C032CC0EC4C7CD00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02D5B0EC2899500BBA802 /* CairoView.h */;
+		name = "CairoView.h: 10";
+		rLen = 18;
+		rLoc = 169;
+		rType = 0;
+		vrLen = 421;
+		vrLoc = 0;
+	};
+	03C032D50EC4C91D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 125";
+		rLen = 0;
+		rLoc = 3460;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 3945;
+	};
+	03C032D60EC4C91D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 85";
+		rLen = 0;
+		rLoc = 2379;
+		rType = 0;
+		vrLen = 774;
+		vrLoc = 0;
+	};
+	03C032D70EC4C91D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	03C032D80EC4C91D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 125";
+		rLen = 0;
+		rLoc = 3460;
+		rType = 0;
+		vrLen = 683;
+		vrLoc = 3945;
+	};
+	03C032D90EC4C91D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 85";
+		rLen = 0;
+		rLoc = 2379;
+		rType = 0;
+		vrLen = 774;
+		vrLoc = 0;
+	};
+	03C032DA0EC4C91D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	03C032DB0EC4C91D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 85";
+		rLen = 0;
+		rLoc = 2379;
+		rType = 0;
+		vrLen = 774;
+		vrLoc = 0;
+	};
+	03C032DC0EC4C91D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	03C032DD0EC4C91D00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 2";
+		rLen = 0;
+		rLoc = 69;
+		rType = 0;
+		vrLen = 1086;
+		vrLoc = 0;
+	};
+	03C032DF0EC4C93200BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	03C032E00EC4C93200BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 69;
+		rType = 0;
+		vrLen = 1075;
+		vrLoc = 0;
+	};
+	03C032E20EC4C94900BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	03C032E30EC4C94900BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 3";
+		rLen = 0;
+		rLoc = 69;
+		rType = 0;
+		vrLen = 1099;
+		vrLoc = 0;
+	};
+	03C032E60EC4C99500BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	03C032E70EC4C99500BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 2";
+		rLen = 0;
+		rLoc = 69;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 0;
+	};
+	03C032E90EC4CA0500BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	03C032EA0EC4CA0500BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 69;
+		rType = 0;
+		vrLen = 1167;
+		vrLoc = 0;
+	};
+	03C032EC0EC4CAF600BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	03C032ED0EC4CAF600BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 69;
+		rType = 0;
+		vrLen = 1050;
+		vrLoc = 0;
+	};
+	03C032F10EC4CC6800BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	03C032F20EC4CC6800BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB10EC2C89500BBA802 /* LuaController.h */;
+		name = "LuaController.h: 16";
+		rLen = 0;
+		rLoc = 271;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 0;
+	};
+	03C032F30EC4CC6800BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 54";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 1127;
+	};
+	03C032F40EC4CC6800BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 979;
+		vrLoc = 0;
+	};
+	03C032F50EC4CC8700BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 53";
+		rLen = 0;
+		rLoc = 1282;
+		rType = 0;
+		vrLen = 898;
+		vrLoc = 1127;
+	};
+	03C032F60EC4CC8700BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 979;
+		vrLoc = 0;
+	};
+	03C032F80EC4CC9C00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 54";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 1127;
+	};
+	03C032F90EC4CC9C00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 994;
+		vrLoc = 0;
+	};
+	03C032FB0EC4CCB300BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 54";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 1127;
+	};
+	03C032FC0EC4CCB300BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 0;
+	};
+	03C032FE0EC4CCD400BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 54";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 1127;
+	};
+	03C032FF0EC4CCD400BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 0;
+	};
+	03C033010EC4CCDE00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 54";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 1127;
+	};
+	03C033020EC4CCDE00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 38;
+		rType = 0;
+		vrLen = 1011;
+		vrLoc = 0;
+	};
+	03C033040EC4CCEB00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 54";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 1127;
+	};
+	03C033050EC4CCEB00BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 62;
+		rType = 0;
+		vrLen = 1012;
+		vrLoc = 0;
+	};
+	03C033070EC4CD0100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 54";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 1127;
+	};
+	03C033080EC4CD0100BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 32;
+		rType = 0;
+		vrLen = 1032;
+		vrLoc = 0;
+	};
+	03C0330A0EC4CD3200BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */;
+		name = "LuaController.m: 54";
+		rLen = 0;
+		rLoc = 1283;
+		rType = 0;
+		vrLen = 989;
+		vrLoc = 1127;
+	};
+	03C0330B0EC4CD3200BBA802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */;
+		name = "core.lua: 1";
+		rLen = 0;
+		rLoc = 32;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 0;
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 03C02D490EC2894100BBA802 /* LuaCairoCocoa */;
 		activeTarget = 8D1107260486CEB800E47090 /* LuaCairoCocoa */;
 		addToTargets = (
@@ -6809,6 +7518,78 @@
 			03C032A30EC4478700BBA802 /* PBXTextBookmark */ = 03C032A30EC4478700BBA802 /* PBXTextBookmark */;
 			03C032A40EC4478700BBA802 /* PBXTextBookmark */ = 03C032A40EC4478700BBA802 /* PBXTextBookmark */;
 			03C032A60EC4610500BBA802 /* PBXTextBookmark */ = 03C032A60EC4610500BBA802 /* PBXTextBookmark */;
+			03C032A70EC4633100BBA802 /* PBXTextBookmark */ = 03C032A70EC4633100BBA802 /* PBXTextBookmark */;
+			03C032A80EC4633100BBA802 /* PBXTextBookmark */ = 03C032A80EC4633100BBA802 /* PBXTextBookmark */;
+			03C032A90EC4633100BBA802 /* PBXTextBookmark */ = 03C032A90EC4633100BBA802 /* PBXTextBookmark */;
+			03C032AA0EC4633100BBA802 /* PBXTextBookmark */ = 03C032AA0EC4633100BBA802 /* PBXTextBookmark */;
+			03C032AB0EC4633100BBA802 /* PBXTextBookmark */ = 03C032AB0EC4633100BBA802 /* PBXTextBookmark */;
+			03C032AC0EC4633100BBA802 /* PBXTextBookmark */ = 03C032AC0EC4633100BBA802 /* PBXTextBookmark */;
+			03C032AD0EC4633100BBA802 /* PBXTextBookmark */ = 03C032AD0EC4633100BBA802 /* PBXTextBookmark */;
+			03C032AE0EC4633100BBA802 /* PBXTextBookmark */ = 03C032AE0EC4633100BBA802 /* PBXTextBookmark */;
+			03C032AF0EC4633100BBA802 /* PBXTextBookmark */ = 03C032AF0EC4633100BBA802 /* PBXTextBookmark */;
+			03C032B00EC4633100BBA802 /* PBXTextBookmark */ = 03C032B00EC4633100BBA802 /* PBXTextBookmark */;
+			03C032B10EC4633100BBA802 /* PBXTextBookmark */ = 03C032B10EC4633100BBA802 /* PBXTextBookmark */;
+			03C032B20EC4633100BBA802 /* PBXTextBookmark */ = 03C032B20EC4633100BBA802 /* PBXTextBookmark */;
+			03C032B30EC4633100BBA802 /* PBXTextBookmark */ = 03C032B30EC4633100BBA802 /* PBXTextBookmark */;
+			03C032B40EC4633100BBA802 /* PBXTextBookmark */ = 03C032B40EC4633100BBA802 /* PBXTextBookmark */;
+			03C032B50EC4633100BBA802 /* PBXTextBookmark */ = 03C032B50EC4633100BBA802 /* PBXTextBookmark */;
+			03C032B60EC4633100BBA802 /* PBXTextBookmark */ = 03C032B60EC4633100BBA802 /* PBXTextBookmark */;
+			03C032B70EC4633100BBA802 /* PBXTextBookmark */ = 03C032B70EC4633100BBA802 /* PBXTextBookmark */;
+			03C032B80EC4633100BBA802 /* PBXTextBookmark */ = 03C032B80EC4633100BBA802 /* PBXTextBookmark */;
+			03C032BB0EC4C64D00BBA802 /* PBXTextBookmark */ = 03C032BB0EC4C64D00BBA802 /* PBXTextBookmark */;
+			03C032BC0EC4C64D00BBA802 /* PBXTextBookmark */ = 03C032BC0EC4C64D00BBA802 /* PBXTextBookmark */;
+			03C032BD0EC4C64D00BBA802 /* PBXTextBookmark */ = 03C032BD0EC4C64D00BBA802 /* PBXTextBookmark */;
+			03C032BE0EC4C64D00BBA802 /* PBXTextBookmark */ = 03C032BE0EC4C64D00BBA802 /* PBXTextBookmark */;
+			03C032BF0EC4C64D00BBA802 /* PBXTextBookmark */ = 03C032BF0EC4C64D00BBA802 /* PBXTextBookmark */;
+			03C032C00EC4C6BB00BBA802 /* PBXTextBookmark */ = 03C032C00EC4C6BB00BBA802 /* PBXTextBookmark */;
+			03C032C10EC4C6BB00BBA802 /* PBXTextBookmark */ = 03C032C10EC4C6BB00BBA802 /* PBXTextBookmark */;
+			03C032C20EC4C6EF00BBA802 /* PBXTextBookmark */ = 03C032C20EC4C6EF00BBA802 /* PBXTextBookmark */;
+			03C032C30EC4C6EF00BBA802 /* PBXTextBookmark */ = 03C032C30EC4C6EF00BBA802 /* PBXTextBookmark */;
+			03C032C50EC4C71100BBA802 /* PBXTextBookmark */ = 03C032C50EC4C71100BBA802 /* PBXTextBookmark */;
+			03C032C60EC4C71100BBA802 /* PBXTextBookmark */ = 03C032C60EC4C71100BBA802 /* PBXTextBookmark */;
+			03C032C90EC4C7CD00BBA802 /* PBXTextBookmark */ = 03C032C90EC4C7CD00BBA802 /* PBXTextBookmark */;
+			03C032CA0EC4C7CD00BBA802 /* PBXTextBookmark */ = 03C032CA0EC4C7CD00BBA802 /* PBXTextBookmark */;
+			03C032CB0EC4C7CD00BBA802 /* PBXTextBookmark */ = 03C032CB0EC4C7CD00BBA802 /* PBXTextBookmark */;
+			03C032CC0EC4C7CD00BBA802 /* PBXTextBookmark */ = 03C032CC0EC4C7CD00BBA802 /* PBXTextBookmark */;
+			03C032D50EC4C91D00BBA802 /* PBXTextBookmark */ = 03C032D50EC4C91D00BBA802 /* PBXTextBookmark */;
+			03C032D60EC4C91D00BBA802 /* PBXTextBookmark */ = 03C032D60EC4C91D00BBA802 /* PBXTextBookmark */;
+			03C032D70EC4C91D00BBA802 /* PBXTextBookmark */ = 03C032D70EC4C91D00BBA802 /* PBXTextBookmark */;
+			03C032D80EC4C91D00BBA802 /* PBXTextBookmark */ = 03C032D80EC4C91D00BBA802 /* PBXTextBookmark */;
+			03C032D90EC4C91D00BBA802 /* PBXTextBookmark */ = 03C032D90EC4C91D00BBA802 /* PBXTextBookmark */;
+			03C032DA0EC4C91D00BBA802 /* PBXTextBookmark */ = 03C032DA0EC4C91D00BBA802 /* PBXTextBookmark */;
+			03C032DB0EC4C91D00BBA802 /* PBXTextBookmark */ = 03C032DB0EC4C91D00BBA802 /* PBXTextBookmark */;
+			03C032DC0EC4C91D00BBA802 /* PBXTextBookmark */ = 03C032DC0EC4C91D00BBA802 /* PBXTextBookmark */;
+			03C032DD0EC4C91D00BBA802 /* PBXTextBookmark */ = 03C032DD0EC4C91D00BBA802 /* PBXTextBookmark */;
+			03C032DF0EC4C93200BBA802 /* PBXTextBookmark */ = 03C032DF0EC4C93200BBA802 /* PBXTextBookmark */;
+			03C032E00EC4C93200BBA802 /* PBXTextBookmark */ = 03C032E00EC4C93200BBA802 /* PBXTextBookmark */;
+			03C032E20EC4C94900BBA802 /* PBXTextBookmark */ = 03C032E20EC4C94900BBA802 /* PBXTextBookmark */;
+			03C032E30EC4C94900BBA802 /* PBXTextBookmark */ = 03C032E30EC4C94900BBA802 /* PBXTextBookmark */;
+			03C032E60EC4C99500BBA802 /* PBXTextBookmark */ = 03C032E60EC4C99500BBA802 /* PBXTextBookmark */;
+			03C032E70EC4C99500BBA802 /* PBXTextBookmark */ = 03C032E70EC4C99500BBA802 /* PBXTextBookmark */;
+			03C032E90EC4CA0500BBA802 /* PBXTextBookmark */ = 03C032E90EC4CA0500BBA802 /* PBXTextBookmark */;
+			03C032EA0EC4CA0500BBA802 /* PBXTextBookmark */ = 03C032EA0EC4CA0500BBA802 /* PBXTextBookmark */;
+			03C032EC0EC4CAF600BBA802 /* PBXTextBookmark */ = 03C032EC0EC4CAF600BBA802 /* PBXTextBookmark */;
+			03C032ED0EC4CAF600BBA802 /* PBXTextBookmark */ = 03C032ED0EC4CAF600BBA802 /* PBXTextBookmark */;
+			03C032F10EC4CC6800BBA802 /* PBXTextBookmark */ = 03C032F10EC4CC6800BBA802 /* PBXTextBookmark */;
+			03C032F20EC4CC6800BBA802 /* PBXTextBookmark */ = 03C032F20EC4CC6800BBA802 /* PBXTextBookmark */;
+			03C032F30EC4CC6800BBA802 /* PBXTextBookmark */ = 03C032F30EC4CC6800BBA802 /* PBXTextBookmark */;
+			03C032F40EC4CC6800BBA802 /* PBXTextBookmark */ = 03C032F40EC4CC6800BBA802 /* PBXTextBookmark */;
+			03C032F50EC4CC8700BBA802 /* PBXTextBookmark */ = 03C032F50EC4CC8700BBA802 /* PBXTextBookmark */;
+			03C032F60EC4CC8700BBA802 /* PBXTextBookmark */ = 03C032F60EC4CC8700BBA802 /* PBXTextBookmark */;
+			03C032F80EC4CC9C00BBA802 /* PBXTextBookmark */ = 03C032F80EC4CC9C00BBA802 /* PBXTextBookmark */;
+			03C032F90EC4CC9C00BBA802 /* PBXTextBookmark */ = 03C032F90EC4CC9C00BBA802 /* PBXTextBookmark */;
+			03C032FB0EC4CCB300BBA802 /* PBXTextBookmark */ = 03C032FB0EC4CCB300BBA802 /* PBXTextBookmark */;
+			03C032FC0EC4CCB300BBA802 /* PBXTextBookmark */ = 03C032FC0EC4CCB300BBA802 /* PBXTextBookmark */;
+			03C032FE0EC4CCD400BBA802 /* PBXTextBookmark */ = 03C032FE0EC4CCD400BBA802 /* PBXTextBookmark */;
+			03C032FF0EC4CCD400BBA802 /* PBXTextBookmark */ = 03C032FF0EC4CCD400BBA802 /* PBXTextBookmark */;
+			03C033010EC4CCDE00BBA802 /* PBXTextBookmark */ = 03C033010EC4CCDE00BBA802 /* PBXTextBookmark */;
+			03C033020EC4CCDE00BBA802 /* PBXTextBookmark */ = 03C033020EC4CCDE00BBA802 /* PBXTextBookmark */;
+			03C033040EC4CCEB00BBA802 /* PBXTextBookmark */ = 03C033040EC4CCEB00BBA802 /* PBXTextBookmark */;
+			03C033050EC4CCEB00BBA802 /* PBXTextBookmark */ = 03C033050EC4CCEB00BBA802 /* PBXTextBookmark */;
+			03C033070EC4CD0100BBA802 /* PBXTextBookmark */ = 03C033070EC4CD0100BBA802 /* PBXTextBookmark */;
+			03C033080EC4CD0100BBA802 /* PBXTextBookmark */ = 03C033080EC4CD0100BBA802 /* PBXTextBookmark */;
+			03C0330A0EC4CD3200BBA802 /* PBXTextBookmark */ = 03C0330A0EC4CD3200BBA802 /* PBXTextBookmark */;
+			03C0330B0EC4CD3200BBA802 /* PBXTextBookmark */ = 03C0330B0EC4CD3200BBA802 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 03C02D580EC2895300BBA802 /* Source Control */;
 		userBuildSettings = {
