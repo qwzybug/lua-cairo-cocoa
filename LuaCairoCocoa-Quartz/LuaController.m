@@ -44,8 +44,8 @@ static int l_setNeedsDisplay(lua_State *L) {
 	L = lua_open();
 	luaL_openlibs(L);
 	
-	lua_pushcfunction(L, l_print);
-    lua_setglobal(L, "print");
+//	lua_pushcfunction(L, l_print);
+//    lua_setglobal(L, "print");
 	
 	lua_pushlightuserdata(L, self);
 	lua_setglobal(L, "self");

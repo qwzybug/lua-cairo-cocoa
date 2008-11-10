@@ -82,49 +82,36 @@ conwayGame.grid:setValueAt(2, 2, true)
 conwayGame.grid:setValueAt(3, 2, true)
 conwayGame.grid:setValueAt(2, 3, true)
 
-lifeBoard = Responder.new {
+lifeBoard = obj{View, name="lifeBoard",
 	bounds = {x = 60, y = 60, width = 240, height = 240},
-	events = {"mouseUp"},
-	mouseUp = function(self, x, y)
-		local myX = math.floor((x - self.bounds.x) / self.cellWidth)
-		local myY = math.floor((y - self.bounds.y) / self.cellHeight)
+	subviews = {},
+	cellWidth = function(self) return self.bounds.width / self.game.grid.width end,
+	cellHeight = function(self) return self.bounds.height / self.game.grid.height end,
+	mouseUp = function(self, evt)
+		local myX = math.floor((evt.pos.x - self.bounds.x) / self:cellWidth())
+		local myY = math.floor((evt.pos.y - self.bounds.y) / self:cellHeight())
 		local cur = self.game.grid:valueAt(myX, myY)
 		self.game.grid:setValueAt(myX, myY, not cur)
 		self:draw()
 	end,
-	setup = function(self, game)
-		self.game = game
-		self.cols = game.grid.width
-		self.rows = game.grid.height
-		self.cellWidth = self.bounds.width / self.cols
-		self.cellHeight = self.bounds.height / self.rows
-		
-		c:clear()
-		c:text("Conway's Game of Life", {x = 60, y = 50, size = 24})
+	draw = function(self)
 		c:rectangle(self.bounds)
 		c.color = Color.black
 		c:stroke()
-		
-		stepButton = Button.new{
-			bounds = {x = 140, y = 320, width = 80, height = 24},
-			title = "Step",
-			action = function(self) stepGame(game) end
-		}
-		
-		self:draw()
-	end,
-	draw = function(self)
+
 		c.color = Color.white
 		c:rectangle(self.bounds)
 		c:fill()
+		
 		c.color = Color.black
+		local cellWidth, cellHeight = self:cellWidth(), self:cellHeight()
 		for x, y, val in self.game.grid:eachCell() do
 			if val then
 				c:rectangle{
-					x = self.bounds.x + self.cellWidth * x,
-					y = self.bounds.y + self.cellHeight * y,
-					width = self.cellWidth,
-					height = self.cellHeight
+					x = self.bounds.x + cellWidth * x,
+					y = self.bounds.y + cellHeight * y,
+					width = cellWidth,
+					height = cellHeight
 				}
 				c:fill()
 			end
@@ -132,9 +119,15 @@ lifeBoard = Responder.new {
 	end
 }
 
-stepGame = function(game)
-	game:update()
-	lifeBoard:draw()
-end
-
-lifeBoard:setup(conwayGame)
+lifeView = obj{View,
+	bounds = viewport.bounds,
+	name = "lifeView",
+	game = conwayGame,
+	board = lifeBoard,
+	subviews = {lifeBoard,
+				obj{Label, size=24, bounds={x=60, y=50, width=200, height=24}, subviews={},
+					text="Conway's Game of Life" },
+				obj{Button, name="lifeButton", title="Step", bounds={x=140, y=320, width=80, height=24}, subviews={},
+					action = function(self) self.game:update(); self.board:draw() end }
+				}
+}

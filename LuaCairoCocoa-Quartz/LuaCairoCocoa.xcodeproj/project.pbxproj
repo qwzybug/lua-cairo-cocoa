@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0379E1FD0EC65DE500D4B40C /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0379E1FC0EC65DE500D4B40C /* libcairo.a */; };
+		0379E2E80EC7C9CB00D4B40C /* luacairo.lua in Resources */ = {isa = PBXBuildFile; fileRef = 0379E2E30EC7C65400D4B40C /* luacairo.lua */; };
+		0379E2E90EC7C9CE00D4B40C /* prototype.lua in Resources */ = {isa = PBXBuildFile; fileRef = 0379E2E20EC7C36A00D4B40C /* prototype.lua */; };
 		03C02D5D0EC2899500BBA802 /* CairoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C02D5C0EC2899500BBA802 /* CairoView.m */; };
-		03C02D600EC289F100BBA802 /* libcairo.2.20.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C02D5F0EC289F100BBA802 /* libcairo.2.20.0.dylib */; };
 		03C02DB30EC2C89500BBA802 /* LuaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */; };
 		03C02DB60EC2CB4B00BBA802 /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C02DB50EC2CB4B00BBA802 /* liblua.a */; };
 		03C02DBE0EC2CCAC00BBA802 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C02DBD0EC2CCAC00BBA802 /* AppController.m */; };
 		03C0302A0EC3030A00BBA802 /* conway.lua in Resources */ = {isa = PBXBuildFile; fileRef = 03C030180EC3022C00BBA802 /* conway.lua */; };
 		03C030A80EC3EB4E00BBA802 /* core.lua in Resources */ = {isa = PBXBuildFile; fileRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */; };
-		03C0331B0EC4D1A400BBA802 /* libcairo.2.20.0.dylib in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 03C02D5F0EC289F100BBA802 /* libcairo.2.20.0.dylib */; };
 		03C0331C0EC4D1B000BBA802 /* cairo.so in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 03C032470EC43C6A00BBA802 /* cairo.so */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -30,7 +31,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				03C0331C0EC4D1B000BBA802 /* cairo.so in Copy Bundle Frameworks */,
-				03C0331B0EC4D1A400BBA802 /* libcairo.2.20.0.dylib in Copy Bundle Frameworks */,
 			);
 			name = "Copy Bundle Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,9 +38,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0379E1FC0EC65DE500D4B40C /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcairo.a; path = /opt/local/lib/libcairo.a; sourceTree = "<absolute>"; };
+		0379E2E20EC7C36A00D4B40C /* prototype.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = prototype.lua; sourceTree = "<group>"; };
+		0379E2E30EC7C65400D4B40C /* luacairo.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luacairo.lua; sourceTree = "<group>"; };
 		03C02D5B0EC2899500BBA802 /* CairoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CairoView.h; sourceTree = "<group>"; };
 		03C02D5C0EC2899500BBA802 /* CairoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CairoView.m; sourceTree = "<group>"; };
-		03C02D5F0EC289F100BBA802 /* libcairo.2.20.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcairo.2.20.0.dylib; path = /opt/local/lib/libcairo.2.20.0.dylib; sourceTree = "<absolute>"; };
 		03C02DB10EC2C89500BBA802 /* LuaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaController.h; sourceTree = "<group>"; };
 		03C02DB20EC2C89500BBA802 /* LuaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuaController.m; sourceTree = "<group>"; };
 		03C02DB50EC2CB4B00BBA802 /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblua.a; path = /opt/local/lib/liblua.a; sourceTree = "<absolute>"; };
@@ -67,8 +69,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				03C02D600EC289F100BBA802 /* libcairo.2.20.0.dylib in Frameworks */,
 				03C02DB60EC2CB4B00BBA802 /* liblua.a in Frameworks */,
+				0379E1FD0EC65DE500D4B40C /* libcairo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +93,8 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0379E1FC0EC65DE500D4B40C /* libcairo.a */,
 				03C02DB50EC2CB4B00BBA802 /* liblua.a */,
-				03C02D5F0EC289F100BBA802 /* libcairo.2.20.0.dylib */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -135,6 +137,8 @@
 				29B97316FDCFA39411CA2CEA /* main.m */,
 				03C030180EC3022C00BBA802 /* conway.lua */,
 				03C0309B0EC3EA9E00BBA802 /* core.lua */,
+				0379E2E20EC7C36A00D4B40C /* prototype.lua */,
+				0379E2E30EC7C65400D4B40C /* luacairo.lua */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -204,6 +208,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				03C030A80EC3EB4E00BBA802 /* core.lua in Resources */,
+				0379E2E80EC7C9CB00D4B40C /* luacairo.lua in Resources */,
+				0379E2E90EC7C9CE00D4B40C /* prototype.lua in Resources */,
 				03C0302A0EC3030A00BBA802 /* conway.lua in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
@@ -251,12 +257,14 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(BUILD_DIR)/Frameworks/";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LuaCairoCocoa_Prefix.pch;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
@@ -264,6 +272,7 @@
 					/opt/local/lib,
 					"\"$(SRCROOT)\"",
 				);
+				PRELINK_LIBS = "";
 				PRODUCT_NAME = LuaCairoCocoa;
 			};
 			name = Debug;
@@ -273,9 +282,11 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(BUILD_DIR)/Frameworks/";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LuaCairoCocoa_Prefix.pch;
+				GENERATE_MASTER_OBJECT_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
@@ -283,6 +294,7 @@
 					/opt/local/lib,
 					"\"$(SRCROOT)\"",
 				);
+				PRELINK_LIBS = "";
 				PRODUCT_NAME = LuaCairoCocoa;
 			};
 			name = Release;

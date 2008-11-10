@@ -8,8 +8,8 @@
 		<string key="IBDocument.HIToolboxVersion">352.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="481"/>
 			<integer value="111"/>
+			<integer value="481"/>
 			<integer value="469"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
@@ -1179,7 +1179,7 @@
 													<string>WebURLsWithTitlesPboardType</string>
 												</object>
 											</object>
-											<string key="NSFrameSize">{340, 132}</string>
+											<string key="NSFrameSize">{340, 120}</string>
 											<reference key="NSSuperview" ref="516002510"/>
 											<object class="NSTextContainer" key="NSTextContainer" id="436825224">
 												<object class="NSLayoutManager" key="NSLayoutManager">
@@ -1187,9 +1187,8 @@
 														<object class="NSMutableString" key="NSString">
 															<bytes key="NS.bytes">LS0gVGhpcyBpcyB3aGVyZSB5b3UgY2FuIGV4ZWN1dGUgTHVhIGNvZGUuIFRyeSBpdCEKCmZvciBpID0g
 MSwxMCBkbwogIGZvciBqID0gMSwxMCBkbwogIGM6cmVjdGFuZ2xle3g9MzYqKGktMSksIHk9KDM2Kihq
-LTEpKSwgd2lkdGg9MzYsIGhlaWdodD0zNn0KICAgIGMuY29sb3IgPSB7cj1tYXRoLnJhbmRvbSgpLCBn
-PW1hdGgucmFuZG9tKCksIGI9bWF0aC5yYW5kb20oKSwgYT0xfQogICAgYzpmaWxsKCkKICBlbmQKZW5k
-A</bytes>
+LTEpKSwgd2lkdGg9MzYsIGhlaWdodD0zNn0KICAgIGMuY29sb3IgPSBDb2xvci5yYW5kb20oKQogICAg
+YzpmaWxsKCkKICBlbmQKZW5kA</bytes>
 														</object>
 														<object class="NSDictionary" key="NSAttributes">
 															<bool key="EncodedWithXMLCoder">YES</bool>
@@ -1323,7 +1322,7 @@ A</bytes>
 												<int key="NSTCFlags">1</int>
 											</object>
 											<object class="NSTextViewSharedData" key="NSSharedData">
-												<int key="NSFlags">12259</int>
+												<int key="NSFlags">12067</int>
 												<object class="NSColor" key="NSBackgroundColor" id="148772375">
 													<int key="NSColorSpace">3</int>
 													<bytes key="NSWhite">MQA</bytes>
@@ -1378,8 +1377,8 @@ A</bytes>
 												<nil key="NSDefaultParagraphStyle"/>
 											</object>
 											<int key="NSTVFlags">6</int>
-											<string key="NSMaxSize">{463, 1e+07}</string>
-											<string key="NSMinize">{223, 11}</string>
+											<string key="NSMaxSize">{697, 1e+07}</string>
+											<string key="NSMinize">{223, 0}</string>
 											<nil key="NSDelegate"/>
 										</object>
 									</object>
@@ -1468,6 +1467,7 @@ A</bytes>
 				<string key="NSWindowTitle">Console</string>
 				<string key="NSWindowClass">NSPanel</string>
 				<nil key="NSViewClass"/>
+				<string key="NSWindowContentMaxSize">{3.40282e+38, 3.40282e+38}</string>
 				<object class="NSView" key="NSWindowView" id="830498534">
 					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
@@ -1557,7 +1557,7 @@ A</bytes>
 								<object class="NSScroller" id="548815558">
 									<reference key="NSNextResponder" ref="503607506"/>
 									<int key="NSvFlags">256</int>
-									<string key="NSFrame">{{350, 1}, {15, 358}}</string>
+									<string key="NSFrame">{{350, 1}, {15, 343}}</string>
 									<reference key="NSSuperview" ref="503607506"/>
 									<reference key="NSTarget" ref="503607506"/>
 									<string key="NSAction">_doScroller:</string>
@@ -3617,7 +3617,7 @@ A</bytes>
 					<string>{{718, 489}, {364, 358}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>{{718, 489}, {364, 358}}</string>
-					<integer value="1"/>
+					<reference ref="9"/>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
