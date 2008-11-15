@@ -82,7 +82,7 @@ conwayGame.grid:setValueAt(2, 2, true)
 conwayGame.grid:setValueAt(3, 2, true)
 conwayGame.grid:setValueAt(2, 3, true)
 
-lifeBoard = obj{View, name="lifeBoard",
+lifeBoard = obj{View,
 	bounds = {x = 60, y = 60, width = 240, height = 240},
 	subviews = {},
 	cellWidth = function(self) return self.bounds.width / self.game.grid.width end,
@@ -121,7 +121,6 @@ lifeBoard = obj{View, name="lifeBoard",
 
 lifeView = obj{View,
 	bounds = viewport.bounds,
-	name = "lifeView",
 	game = conwayGame,
 	board = lifeBoard,
 	subviews = {lifeBoard,

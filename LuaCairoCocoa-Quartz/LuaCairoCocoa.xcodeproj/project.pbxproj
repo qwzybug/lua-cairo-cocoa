@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0379E1FD0EC65DE500D4B40C /* libcairo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0379E1FC0EC65DE500D4B40C /* libcairo.a */; };
-		0379E2E80EC7C9CB00D4B40C /* luacairo.lua in Resources */ = {isa = PBXBuildFile; fileRef = 0379E2E30EC7C65400D4B40C /* luacairo.lua */; };
-		0379E2E90EC7C9CE00D4B40C /* prototype.lua in Resources */ = {isa = PBXBuildFile; fileRef = 0379E2E20EC7C36A00D4B40C /* prototype.lua */; };
-		03C02D5D0EC2899500BBA802 /* CairoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C02D5C0EC2899500BBA802 /* CairoView.m */; };
-		03C02DB30EC2C89500BBA802 /* LuaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C02DB20EC2C89500BBA802 /* LuaController.m */; };
 		03C02DB60EC2CB4B00BBA802 /* liblua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C02DB50EC2CB4B00BBA802 /* liblua.a */; };
-		03C02DBE0EC2CCAC00BBA802 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C02DBD0EC2CCAC00BBA802 /* AppController.m */; };
-		03C0302A0EC3030A00BBA802 /* conway.lua in Resources */ = {isa = PBXBuildFile; fileRef = 03C030180EC3022C00BBA802 /* conway.lua */; };
-		03C030A80EC3EB4E00BBA802 /* core.lua in Resources */ = {isa = PBXBuildFile; fileRef = 03C0309B0EC3EA9E00BBA802 /* core.lua */; };
 		03C0331C0EC4D1B000BBA802 /* cairo.so in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 03C032470EC43C6A00BBA802 /* cairo.so */; };
+		03DAC8E70ECEA40800DABA70 /* conway.lua in Resources */ = {isa = PBXBuildFile; fileRef = 03DAC8E30ECEA40800DABA70 /* conway.lua */; };
+		03DAC8E80ECEA40800DABA70 /* luacairo.lua in Resources */ = {isa = PBXBuildFile; fileRef = 03DAC8E40ECEA40800DABA70 /* luacairo.lua */; };
+		03DAC8E90ECEA40800DABA70 /* core.lua in Resources */ = {isa = PBXBuildFile; fileRef = 03DAC8E50ECEA40800DABA70 /* core.lua */; };
+		03DAC8EA0ECEA40800DABA70 /* prototype.lua in Resources */ = {isa = PBXBuildFile; fileRef = 03DAC8E60ECEA40800DABA70 /* prototype.lua */; };
+		03DAC8F30ECEA43F00DABA70 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DAC8ED0ECEA43F00DABA70 /* AppController.m */; };
+		03DAC8F40ECEA43F00DABA70 /* LuaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DAC8F00ECEA43F00DABA70 /* LuaController.m */; };
+		03DAC8F50ECEA43F00DABA70 /* CairoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DAC8F20ECEA43F00DABA70 /* CairoView.m */; };
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -39,18 +39,18 @@
 
 /* Begin PBXFileReference section */
 		0379E1FC0EC65DE500D4B40C /* libcairo.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcairo.a; path = /opt/local/lib/libcairo.a; sourceTree = "<absolute>"; };
-		0379E2E20EC7C36A00D4B40C /* prototype.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = prototype.lua; sourceTree = "<group>"; };
-		0379E2E30EC7C65400D4B40C /* luacairo.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luacairo.lua; sourceTree = "<group>"; };
-		03C02D5B0EC2899500BBA802 /* CairoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CairoView.h; sourceTree = "<group>"; };
-		03C02D5C0EC2899500BBA802 /* CairoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CairoView.m; sourceTree = "<group>"; };
-		03C02DB10EC2C89500BBA802 /* LuaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaController.h; sourceTree = "<group>"; };
-		03C02DB20EC2C89500BBA802 /* LuaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuaController.m; sourceTree = "<group>"; };
 		03C02DB50EC2CB4B00BBA802 /* liblua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblua.a; path = /opt/local/lib/liblua.a; sourceTree = "<absolute>"; };
-		03C02DBC0EC2CCAC00BBA802 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
-		03C02DBD0EC2CCAC00BBA802 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
-		03C030180EC3022C00BBA802 /* conway.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = conway.lua; sourceTree = "<group>"; };
-		03C0309B0EC3EA9E00BBA802 /* core.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = core.lua; sourceTree = "<group>"; };
 		03C032470EC43C6A00BBA802 /* cairo.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = cairo.so; sourceTree = "<group>"; };
+		03DAC8E30ECEA40800DABA70 /* conway.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = conway.lua; path = Lua/conway.lua; sourceTree = "<group>"; };
+		03DAC8E40ECEA40800DABA70 /* luacairo.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = luacairo.lua; path = Lua/luacairo.lua; sourceTree = "<group>"; };
+		03DAC8E50ECEA40800DABA70 /* core.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = core.lua; path = Lua/core.lua; sourceTree = "<group>"; };
+		03DAC8E60ECEA40800DABA70 /* prototype.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = prototype.lua; path = Lua/prototype.lua; sourceTree = "<group>"; };
+		03DAC8ED0ECEA43F00DABA70 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = Classes/AppController.m; sourceTree = "<group>"; };
+		03DAC8EE0ECEA43F00DABA70 /* CairoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CairoView.h; path = Classes/CairoView.h; sourceTree = "<group>"; };
+		03DAC8EF0ECEA43F00DABA70 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = Classes/AppController.h; sourceTree = "<group>"; };
+		03DAC8F00ECEA43F00DABA70 /* LuaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LuaController.m; path = Classes/LuaController.m; sourceTree = "<group>"; };
+		03DAC8F10ECEA43F00DABA70 /* LuaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LuaController.h; path = Classes/LuaController.h; sourceTree = "<group>"; };
+		03DAC8F20ECEA43F00DABA70 /* CairoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CairoView.m; path = Classes/CairoView.m; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -77,15 +77,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0379E3D60EC8E4E700D4B40C /* Lua */ = {
+			isa = PBXGroup;
+			children = (
+				03DAC8E30ECEA40800DABA70 /* conway.lua */,
+				03DAC8E40ECEA40800DABA70 /* luacairo.lua */,
+				03DAC8E50ECEA40800DABA70 /* core.lua */,
+				03DAC8E60ECEA40800DABA70 /* prototype.lua */,
+			);
+			name = Lua;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				03C02DBC0EC2CCAC00BBA802 /* AppController.h */,
-				03C02DBD0EC2CCAC00BBA802 /* AppController.m */,
-				03C02DB10EC2C89500BBA802 /* LuaController.h */,
-				03C02DB20EC2C89500BBA802 /* LuaController.m */,
-				03C02D5B0EC2899500BBA802 /* CairoView.h */,
-				03C02D5C0EC2899500BBA802 /* CairoView.m */,
+				03DAC8EF0ECEA43F00DABA70 /* AppController.h */,
+				03DAC8ED0ECEA43F00DABA70 /* AppController.m */,
+				03DAC8EE0ECEA43F00DABA70 /* CairoView.h */,
+				03DAC8F20ECEA43F00DABA70 /* CairoView.m */,
+				03DAC8F10ECEA43F00DABA70 /* LuaController.h */,
+				03DAC8F00ECEA43F00DABA70 /* LuaController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -122,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				080E96DDFE201D6D7F000001 /* Classes */,
+				0379E3D60EC8E4E700D4B40C /* Lua */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -135,10 +147,6 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* LuaCairoCocoa_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
-				03C030180EC3022C00BBA802 /* conway.lua */,
-				03C0309B0EC3EA9E00BBA802 /* core.lua */,
-				0379E2E20EC7C36A00D4B40C /* prototype.lua */,
-				0379E2E30EC7C65400D4B40C /* luacairo.lua */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -207,12 +215,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03C030A80EC3EB4E00BBA802 /* core.lua in Resources */,
-				0379E2E80EC7C9CB00D4B40C /* luacairo.lua in Resources */,
-				0379E2E90EC7C9CE00D4B40C /* prototype.lua in Resources */,
-				03C0302A0EC3030A00BBA802 /* conway.lua in Resources */,
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				03DAC8E70ECEA40800DABA70 /* conway.lua in Resources */,
+				03DAC8E80ECEA40800DABA70 /* luacairo.lua in Resources */,
+				03DAC8E90ECEA40800DABA70 /* core.lua in Resources */,
+				03DAC8EA0ECEA40800DABA70 /* prototype.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,9 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072D0486CEB800E47090 /* main.m in Sources */,
-				03C02D5D0EC2899500BBA802 /* CairoView.m in Sources */,
-				03C02DB30EC2C89500BBA802 /* LuaController.m in Sources */,
-				03C02DBE0EC2CCAC00BBA802 /* AppController.m in Sources */,
+				03DAC8F30ECEA43F00DABA70 /* AppController.m in Sources */,
+				03DAC8F40ECEA43F00DABA70 /* LuaController.m in Sources */,
+				03DAC8F50ECEA43F00DABA70 /* CairoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

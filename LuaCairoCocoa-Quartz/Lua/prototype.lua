@@ -1,5 +1,18 @@
 -- Implementation of the NewtonOS inheritance model
 
+-- Copies tables, assuming that each entry should be "copied"
+-- through prototype inheritance
+function protoCopy(t)
+  local new = {}
+  if t then
+    for k,v in pairs(t) do
+      new[k] = obj{v}
+    end
+  end
+  return new
+end
+
+
 -- NewtonScript-style table lookup:
 -- Look first in prototypes.
 -- Look next in parent and its prototypes. Etc.
@@ -7,16 +20,20 @@
 function lookup(obj, k)
   -- first, check the prototype chain
   v = lookupProto(obj, k)
-  if v then
-    do return v end
-  else -- check the parent
+  if not v then -- check the parent
     p = rawget(obj, "_parent")
     if p then -- recurse lookup on parent
-      do return p[k] end
+      v = p[k]
     else -- end of the parent chain
-      do return nil end
+      v = nil
     end
   end
+  -- shortcut lookup for _tables
+  if string.sub(k, 1, 1) == "_" then
+    v = protoCopy(v)
+    rawset(obj, k, v)
+  end
+  return v
 end
 
 function lookupProto(obj, k)
@@ -39,7 +56,7 @@ end
 -- That sounds inefficient, somehow...
 
 function parentSet(obj, k, v, bottom)
-  if k == "_parent" or k == "_proto" then rawset(obj, k, v); do return end end
+  if string.sub(k, 1, 1) == "_" then rawset(obj, k, v); do return end end
   local result
   -- set locally if the key is defined in the prototype
   if lookupProto(obj, k) then result = rawset(obj, k, v)
@@ -58,7 +75,16 @@ end
 -- object constructor
 obj = function(o)
   o = o or {}
-  if o[1] then o._proto = o[1] end
+  if o[1] then
+    for k,v in pairs(o) do
+      if string.sub(k, 1, 1) == "_" then
+	    pv = lookup(o[1], k)
+        setmetatable(v, protoCopy(pv))
+      end
+    end
+    o._proto = o[1]
+    table.remove(o, 1)
+  end
   setmetatable(o, {__index = lookup,
                    __newindex = function(t,k,v) parentSet(t, k, v, true) end })
   return o

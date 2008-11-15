@@ -13,6 +13,7 @@
 @protocol CairoEventDelegate
 - (void)mouseDownAt:(NSPoint)location;
 - (void)mouseUpAt:(NSPoint)location;
+- (void)mouseDraggedAt:(NSPoint)location;
 @end
 
 @interface CairoView : NSView {

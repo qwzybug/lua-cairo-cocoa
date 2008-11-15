@@ -47,8 +47,8 @@ static int l_setNeedsDisplay(lua_State *L) {
 //	lua_pushcfunction(L, l_print);
 //    lua_setglobal(L, "print");
 	
-	lua_pushlightuserdata(L, self);
-	lua_setglobal(L, "self");
+//	lua_pushlightuserdata(L, self);
+//	lua_setglobal(L, "self");
 	
 	NSString *directory = [[NSBundle mainBundle] bundlePath];
 	const char *dir = [directory cStringUsingEncoding:NSASCIIStringEncoding];
@@ -174,6 +174,17 @@ static int l_setNeedsDisplay(lua_State *L) {
 	lua_pushnumber(L, height - location.y); // cocoa drawing is inverted compared to Cairo's
 	if (lua_pcall(L, 2, 0, 0) != 0) {
 		NSLog(@"Error calling mouseUp: %s", lua_tostring(L, -1));
+	}
+}
+
+- (void)mouseDraggedAt:(NSPoint)location;
+{
+  lua_getglobal(L, "mouseDragged");
+  lua_pushnumber(L, location.x);
+	double height = self.viewport.bounds.size.height;
+	lua_pushnumber(L, height - location.y); // cocoa drawing is inverted compared to Cairo's
+	if (lua_pcall(L, 2, 0, 0) != 0) {
+    NSLog(@"Error calling mouseDragged: %s", lua_tostring(L, -1));
 	}
 }
 

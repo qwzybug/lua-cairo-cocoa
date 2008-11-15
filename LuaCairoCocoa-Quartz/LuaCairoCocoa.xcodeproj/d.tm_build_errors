@@ -1,0 +1,6 @@
+/Users/d/Desktop/learnlua/lua-cairo-cocoa/LuaCairoCocoa-Quartz/Classes/LuaController.m|191|warning: incomplete implementation of class ‘LuaController’
+/Users/d/Desktop/learnlua/lua-cairo-cocoa/LuaCairoCocoa-Quartz/Classes/LuaController.m|191|warning: method definition for ‘-mouseMovedAt:’ not found
+/Users/d/Desktop/learnlua/lua-cairo-cocoa/LuaCairoCocoa-Quartz/Classes/LuaController.m|191|warning: class ‘LuaController’ does not fully implement the ‘CairoEventDelegate’ protocol
+/Users/d/Desktop/learnlua/lua-cairo-cocoa/LuaCairoCocoa-Quartz/Classes/LuaController.m|191|warning: incomplete implementation of class ‘LuaController’
+/Users/d/Desktop/learnlua/lua-cairo-cocoa/LuaCairoCocoa-Quartz/Classes/LuaController.m|191|warning: method definition for ‘-mouseMovedAt:’ not found
+/Users/d/Desktop/learnlua/lua-cairo-cocoa/LuaCairoCocoa-Quartz/Classes/LuaController.m|191|warning: class ‘LuaController’ does not fully implement the ‘CairoEventDelegate’ protocol

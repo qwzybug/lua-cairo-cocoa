@@ -13,6 +13,11 @@
 
 @synthesize cairoContext, delegate;
 
+// - (void)awakeFromNib;
+// {
+//   [[self window] setAcceptsMouseMovedEvents:YES];
+// }
+
 - (void)drawRect:(NSRect)rect {
 	if (!cairoContext) return;
 	CGImageRef image = CGBitmapContextCreateImage(cairoContext);
@@ -26,16 +31,28 @@
 	return YES;
 }
 
-- (void)mouseDown:(NSEvent *)theEvent
+// - (BOOL)acceptsMouseMoved;
+// {
+//   return YES;
+// }
+
+- (void)mouseDown:(NSEvent *)theEvent;
 {
 	NSPoint location = [self convertPoint:[theEvent locationInWindow] fromView:[[self window] contentView]];
 	[self.delegate mouseDownAt:location];
 }
 
-- (void)mouseUp:(NSEvent *)theEvent
+- (void)mouseUp:(NSEvent *)theEvent;
 {
 	NSPoint location = [self convertPoint:[theEvent locationInWindow] fromView:[[self window] contentView]];
 	[self.delegate mouseUpAt:location];
 }
+
+- (void)mouseDragged:(NSEvent *)theEvent;
+{
+  NSPoint location = [self convertPoint:[theEvent locationInWindow] fromView:[[self window] contentView]];
+  [self.delegate mouseDraggedAt:location];
+}
+
 
 @end
